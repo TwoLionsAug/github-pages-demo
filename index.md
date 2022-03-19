@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/hgc520/github-pages-demo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE HTML>
+<html xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <meta charset="UTF-8">
+    <title>曹婧，你中午想吃什么呀</title>
+    <meta name="keywords" content="中午吃什么" />
+    <meta name="description" content="中午吃什么" />
+    <link rel="stylesheet" href="default.css">
+    <script src="https://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <script data-ad-client="ca-pub-5631658013381479" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71978237-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+      gtag('config', 'UA-71978237-1');
+    </script>
+</head>
 
-### Markdown
+<body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <div id="wrapper">
+        <h1>
+          曹婧，你中午想吃什么呀
+            <br>
+            <br>
+            <b style="color:#FF9733" id="what"></b>
+        </h1>
+        <input type="button" value="开始" id="start" />
+        <input type="button" value="开始" id="stop" style="display: none;">
+    </div>
 
-```markdown
-Syntax highlighted code block
+    <textarea rows="9" cols="53" id="list" style="display:none">
+                糖葫芦 馄饨 拉面 烩面 热干面 刀削面 油泼面 炸酱面 炒面 重庆小面 米线 酸辣粉 土豆粉 螺狮粉 凉皮儿 麻辣烫 肉夹馍 羊肉汤 炒饭 盖浇饭 卤肉饭 烤肉饭 黄焖鸡米饭 驴肉火烧 川菜 麻辣香锅 火锅 酸菜鱼 烤串 披萨 烤鸭 汉堡 炸鸡 寿司 蟹黄包 煎饼果子 生煎 炒年糕
+    </textarea>
 
-# Header 1
-## Header 2
-### Header 3
+	<!-- <div id="weibo">
+		<wb:follow-button uid="1650984392" type="gray_1" width="67" height="24" ></wb:follow-button>
+	</div> -->
 
-- Bulleted
-- List
+    <script src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script src="random.js"></script>
+    <script src="three_punch_combo.js"></script>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hgc520/github-pages-demo/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
